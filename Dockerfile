@@ -37,7 +37,7 @@ RUN	curl -s "http://solder.endermedia.com/repository/downloads/the-1710-pack/the
 RUN	unzip the-1710-pack_0.9.8b.zip && rm the-1710-pack_0.9.8b.zip
 
 # disable mods
-RUN	mkdir -p mods/disabled
+#RUN	mkdir -p mods/disabled
 #RUN	mv mods/morph*.zip mods/disabled/
 
 # Fix all permissions
